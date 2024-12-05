@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+    <header>
+        <a id="nameIco"></a>
+        <a id="name">Auth</a>
+    </header>
+    <br>
+    <main>
+        <div id="schemeControls">
+            <span>Colour Scheme: </span>
+            <input type="button" value="Toggle Dark Mode" id="toggle-dark-mode">
+            <input type="button" value="Reset to System Theme" id="reset-to-system">
+            <span>Current theme: <strong id="theme-source">System</strong></span>
+        </div>
+        <h1>Hello World!</h1>
+        <input id="text" type="text" placeholder="Code..." maxlength="25" minlength="3" required>
+        <input id="textBtn" type="submit" value="Get Link">
+        <div id="error"></div>
+        <div id="link"></div>
+    </main>
+    <script src="renderer.js"></script>
+</body>
+</html>
